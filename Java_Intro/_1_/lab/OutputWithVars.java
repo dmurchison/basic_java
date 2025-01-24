@@ -1,4 +1,4 @@
-package mod_1.lab;
+package Java_Intro._1_.lab;
 import java.util.Scanner;
 
 public class OutputWithVars {

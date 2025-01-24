@@ -1,4 +1,4 @@
-package mod_1.int_div_and_mod;
+package Java_Intro._1_.int_div_and_mod;
 
 public class Division {
     public static void main(String[] args) {

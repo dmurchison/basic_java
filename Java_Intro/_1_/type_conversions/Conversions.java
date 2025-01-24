@@ -1,4 +1,4 @@
-package mod_1.type_conversions;
+package Java_Intro._1_.type_conversions;
 
 public class Conversions {
     public static void main(String[] args) {

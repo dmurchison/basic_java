@@ -1,6 +1,5 @@
-package mod_1.type_conversions;
+package Java_Intro._1_.type_conversions;
 import java.util.Scanner;
-
 
 public class Stringy {
     public static void main(String[] args) {
