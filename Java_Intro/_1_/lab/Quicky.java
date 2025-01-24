@@ -14,6 +14,8 @@ public class Quicky {
 
         // with only one decimal place
         System.out.printf("%.1f\n", z);
+
+        scnr.close();
         return;
     }
 }

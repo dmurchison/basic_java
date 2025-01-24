@@ -25,6 +25,7 @@ public class BasicInput {
         System.out.println(userStr + " " + userChar + " " + userDouble + " " + userInt);
         System.out.println(userDouble + " cast to an integer is " + (int)userDouble);
 
+        scnr.close();
         return;
     }
 }

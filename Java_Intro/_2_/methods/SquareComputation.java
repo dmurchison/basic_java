@@ -4,13 +4,13 @@ package Java_Intro._2_.methods;
 public class SquareComputation {
 
     public static int computeSquare(int numToSquare) {
-       return numToSquare * numToSquare;
+        return numToSquare * numToSquare;
     }
 
     public static void main (String [] args) {
-       int numSquared;
+        int numSquared;
 
-       numSquared = computeSquare(7);
-       System.out.println("7 squared is " + numSquared);
-   }
- }
+        numSquared = computeSquare(7);
+        System.out.println("7 squared is " + numSquared);
+    }
+}

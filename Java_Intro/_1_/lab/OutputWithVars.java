@@ -31,6 +31,8 @@ public class OutputWithVars {
       System.out.print(userNum + " * " + userNum2 + " is ");
       System.out.println(userNum * userNum2);
 
+      scnr.close();
+
       return;
    }
 }
