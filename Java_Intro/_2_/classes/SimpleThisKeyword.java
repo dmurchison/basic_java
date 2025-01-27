@@ -10,10 +10,13 @@ public class SimpleThisKeyword {
         usrHrs = 5;
         usrMins = 34;
 
-        travTime.setTime(usrHrs, usrMins);
+        travTime.setTime(usrHrs, usrMins); // Calls the setTime method
         travTime.print();
 
         ElapsedTime travTime2 = new ElapsedTime(3, 45); // Calls the overloaded constructor
         travTime2.print();
+
+        ElapsedTime travTime3 = new ElapsedTime(); // Calls the default constructor
+        travTime3.print();
     }
 }
