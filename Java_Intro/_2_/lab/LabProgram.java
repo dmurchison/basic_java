@@ -14,17 +14,14 @@ public class LabProgram {
     public static void main(String[] args) {
         // get input
         Scanner scnr = new Scanner(System.in);
-        double milesPerGallon = 0.0;
-        double dollarsPerGallon = 0.0;
-        double milesDriven = 0.0;
-
-        milesPerGallon = scnr.nextDouble();
-        dollarsPerGallon = scnr.nextDouble();
-        milesDriven = scnr.nextDouble();
+        double milesPerGallon = scnr.nextDouble();
+        double dollarsPerGallon = scnr.nextDouble();
 
 
         // call drivingCost method and print result
         LabProgram lp = new LabProgram();
-        System.out.printf("%.2f\n", lp.drivingCost(milesPerGallon, dollarsPerGallon, milesDriven));
+        System.out.printf("%.2f ", lp.drivingCost(milesPerGallon, dollarsPerGallon, 10.0));
+        System.out.printf("%.2f ", lp.drivingCost(milesPerGallon, dollarsPerGallon, 50.0));
+        System.out.printf("%.2f\n", lp.drivingCost(milesPerGallon, dollarsPerGallon, 400.0));
     }
 }
