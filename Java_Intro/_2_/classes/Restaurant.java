@@ -4,6 +4,11 @@ public class Restaurant {
     private String name;
     private int rating;
 
+    public Restaurant() { // Constructor
+        name = "Unknown";
+        rating = -1;
+    }
+
     public void setName(String restaurantName) { // Sets the restaurant's name
         name = restaurantName;
     }

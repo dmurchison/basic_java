@@ -1,9 +1,11 @@
 package Java_Intro._2_.classes;
 
 public class RestaurantFavorites {
+
     public static void main(String[] args) {
         Restaurant favLunchPlace = new Restaurant();
         Restaurant favDinnerPlace = new Restaurant();
+        Restaurant randomRestaurant = new Restaurant();
 
         favLunchPlace.setName("Central Deli");
         favLunchPlace.setRating(4);
@@ -14,5 +16,7 @@ public class RestaurantFavorites {
         System.out.println("My favorite restaurants: ");
         favLunchPlace.print();
         favDinnerPlace.print();
+
+        randomRestaurant.print();
     }
 }
