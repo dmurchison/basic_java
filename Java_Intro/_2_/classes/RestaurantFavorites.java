@@ -13,6 +13,6 @@ public class RestaurantFavorites {
 
         System.out.println("My favorite restaurants: ");
         favLunchPlace.print();
-        favDinnerPlace.print();;
+        favDinnerPlace.print();
     }
 }
