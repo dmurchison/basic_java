@@ -1,5 +1,6 @@
 package Java_Intro._1_.int_div_and_mod;
 
+
 public class EachDigit {
     public static void main(String[] args) {
         int num = 12345;

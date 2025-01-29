@@ -1,6 +1,6 @@
 package Java_Intro._1_.int_div_and_mod;
-
 import java.util.Scanner;
+
 
 public class DailySalary {
     public static void main(String[] args) {

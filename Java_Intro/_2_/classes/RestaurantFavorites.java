@@ -1,5 +1,6 @@
 package Java_Intro._2_.classes;
 
+
 public class RestaurantFavorites {
 
     public static void main(String[] args) {

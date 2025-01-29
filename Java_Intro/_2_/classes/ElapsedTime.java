@@ -1,5 +1,6 @@
 package Java_Intro._2_.classes;
 
+
 public class ElapsedTime {
     private int hours;
     private int minutes;

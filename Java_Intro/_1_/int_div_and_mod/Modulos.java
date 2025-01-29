@@ -1,5 +1,6 @@
 package Java_Intro._1_.int_div_and_mod;
 
+
 public class Modulos {
     public static void main(String[] args) {
         int num1 = 0;

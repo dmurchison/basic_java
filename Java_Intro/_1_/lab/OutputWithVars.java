@@ -1,6 +1,7 @@
 package Java_Intro._1_.lab;
 import java.util.Scanner;
 
+
 public class OutputWithVars {
    public static void main(String[] args) {
       Scanner scnr = new Scanner(System.in);

@@ -1,5 +1,6 @@
 package Java_Intro._1_.int_div_and_mod;
 
+
 public class CombineOutput {
     public static void main(String[] args) {
         int a;

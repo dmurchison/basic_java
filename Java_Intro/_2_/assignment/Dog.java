@@ -1,6 +1,7 @@
 package Java_Intro._2_.assignment;
 import java.util.Scanner;
 
+
 public class Dog {
     private int dogSpceNumber;
     private int dogWeight;

@@ -1,5 +1,6 @@
 package Java_Intro._2_.classes;
 
+
 public class Restaurant {
     private String name;
     private int rating;
