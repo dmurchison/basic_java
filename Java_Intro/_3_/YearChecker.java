@@ -16,33 +16,5 @@ public class YearChecker {
         } else {
             System.out.println("Common year");
         }
-
-        // using a switch statement
-        switch (givenYear) {
-            case 1752:
-                System.out.println("Special year");
-                break;
-            case 1800:
-                System.out.println("Special year");
-                break;
-            case 1900:
-                System.out.println("Special year");
-                break;
-            case 2100:
-                System.out.println("Special year");
-                break;
-            case 2200:
-                System.out.println("Special year");
-                break;
-            case 2300:
-                System.out.println("Special year");
-                break;
-            case 2500:
-                System.out.println("Special year");
-                break;
-            default:
-                System.out.println("Not a special year");
-                break;
-        }
     }
 }
