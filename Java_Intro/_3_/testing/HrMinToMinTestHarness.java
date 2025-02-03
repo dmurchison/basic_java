@@ -6,7 +6,7 @@ public class HrMinToMinTestHarness {
 
         totMinutes = (origHours * 60) + origMinutes;
 
-        return origHours; // Return the calculated total minutes
+        return totMinutes; // Return the calculated total minutes
     }
 
     public static void main(String[] args) {
