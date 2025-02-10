@@ -10,7 +10,28 @@ public class OrderStrings {
         firstString  = scnr.next();
         secondString = scnr.next();
 
+        int count = 0;
+        for (int i = 0; i < firstString.length(); i++) {
+            char currentChar = firstString.charAt(i);
+            if (currentChar != ' ' && currentChar != '.' && currentChar != '!') {
+                count++;
+            }
+        }
+        System.out.println("Number of characters in firstString that are not ' ', '.', or '!': " + count);
+
+        count = 0;
+        for (int i = 0; i < secondString.length(); i++) {
+            char currentChar = secondString.charAt(i);
+            if (currentChar != ' ' && currentChar != '.' && currentChar != '!') {
+                count++;
+            }
+        }
+        System.out.println("Number of characters in secondString that are not ' ', '.', or '!': " + count);
+
         for (int i = 0; i < firstString.length() && i < secondString.length(); i++) {
+            if (firstString.charAt(i) == ' ' || secondString.charAt(i) == ' ') {
+                continue; // Skip comparison if either character is a space
+            }
             if (firstString.charAt(i) == secondString.charAt(i)) {
                 continue;
             } else if (firstString.charAt(i) < secondString.charAt(i)) {
