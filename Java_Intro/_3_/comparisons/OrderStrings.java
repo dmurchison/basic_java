@@ -15,6 +15,7 @@ public class OrderStrings {
             char currentChar = firstString.charAt(i);
             if (currentChar != ' ' && currentChar != '.' && currentChar != '!') {
                 count++;
+                scnr.close();
             }
         }
         System.out.println("Number of characters in firstString that are not ' ', '.', or '!': " + count);
@@ -49,5 +50,6 @@ public class OrderStrings {
         } else {
             System.out.println(secondString + " " + firstString);
         }
+
     }
 }

@@ -1,4 +1,4 @@
-package Java_Intro._2_.methods;
+package methods;
 
 
 public class Method_101 {

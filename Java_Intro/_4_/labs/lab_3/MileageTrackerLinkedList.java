@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class MileageTrackerLinkedList {
-   public static void main (String[] args) {
+    public static void main (String[] args) {
         Scanner scnr = new Scanner(System.in);
 
         // References for MileageTrackerNode objects
@@ -38,6 +38,7 @@ public class MileageTrackerLinkedList {
         while (currNode != null) {
             currNode.printNodeData();
             currNode = currNode.getNext();
+            scnr.close();
         }
     }
 }

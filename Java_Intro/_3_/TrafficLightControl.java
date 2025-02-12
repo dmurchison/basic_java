@@ -1,3 +1,4 @@
+package Java_Intro._3_;
 import java.util.Scanner;
 
 /* Manual controller for traffic light */

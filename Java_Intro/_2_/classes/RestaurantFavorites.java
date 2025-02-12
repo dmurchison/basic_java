@@ -1,4 +1,4 @@
-package Java_Intro._2_.classes;
+package classes;
 
 
 public class RestaurantFavorites {

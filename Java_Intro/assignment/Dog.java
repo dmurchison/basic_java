@@ -1,32 +1,32 @@
-package assignment;
+package Java_Intro.assignment;
 import java.util.Scanner;
 
 
 public class Dog {
-    private int dogSpceNumber;
+    private int dogSpaceNumber;
     private int dogWeight;
     private boolean grooming;
 
     // default constructor
     public Dog() {
-        this.dogSpceNumber = -1;
+        this.dogSpaceNumber = -1;
         this.dogWeight = -1;
         this.grooming = false;
     }
 
     // parameterized constructor
-    public Dog(int dogSpceNumber, int dogWeight, boolean grooming) {
-        this.dogSpceNumber = dogSpceNumber;
+    public Dog(int dogSpaceNumber, int dogWeight, boolean grooming) {
+        this.dogSpaceNumber = dogSpaceNumber;
         this.dogWeight = dogWeight;
         this.grooming = grooming;
     }
 
     // getters and setters
     public int getDogSpaceNumber() {
-        return dogSpceNumber;
+        return dogSpaceNumber;
     }
-    public void setDogSpaceNumber(int dogSpceNumber) {
-        this.dogSpceNumber = dogSpceNumber;
+    public void setDogSpaceNumber(int dogSpaceNumber) {
+        this.dogSpaceNumber = dogSpaceNumber;
     }
     public int getDogWeight() {
         return dogWeight;
@@ -43,7 +43,7 @@ public class Dog {
 
     // toString method
     public String toString() {
-        return "Dog [dogSpceNumber=" + dogSpceNumber + ", dogWeight=" + dogWeight + ", grooming=" + grooming + "]";
+        return "Dog [dogSpaceNumber=" + dogSpaceNumber + ", dogWeight=" + dogWeight + ", grooming=" + grooming + "]";
     }
 
     public static void main(String[] args) {

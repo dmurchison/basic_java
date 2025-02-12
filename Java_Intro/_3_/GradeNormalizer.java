@@ -1,3 +1,6 @@
+package Java_Intro._3_;
+
+
 public class GradeNormalizer {
     public static int normalizeGrade(int grade) {
         int upperBound = 68;

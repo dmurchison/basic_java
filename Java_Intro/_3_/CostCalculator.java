@@ -1,3 +1,6 @@
+package Java_Intro._3_;
+
+
 public class CostCalculator {
     public static int calculateCost(int age, int units) {
         int cost;
