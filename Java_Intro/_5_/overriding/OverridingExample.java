@@ -8,5 +8,6 @@ public class OverridingExample {
         favoritePlace.setAddress("500 W 2nd Ave");
         favoritePlace.setRating(5);
         System.out.println(favoritePlace.getDescription());
+        System.out.println(favoritePlace.toString());
     }
 }
