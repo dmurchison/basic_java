@@ -1,4 +1,4 @@
-package Java_Intro._5_.lab_2;
+package Java_Intro._5_.z_labs.lab_2;
 
 
 public class Pet {

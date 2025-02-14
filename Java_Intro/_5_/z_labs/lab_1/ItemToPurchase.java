@@ -1,4 +1,4 @@
-package Java_Intro._5_.lab_1;
+package Java_Intro._5_.z_labs.lab_1;
 
 
 public class ItemToPurchase {
