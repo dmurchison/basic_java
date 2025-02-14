@@ -1,5 +1,6 @@
 package Java_Intro._5_.inheritance;
 
+
 public class Person {
     private int ageYears;
     private String lastName;

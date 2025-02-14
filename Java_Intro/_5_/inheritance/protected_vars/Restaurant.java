@@ -1,5 +1,6 @@
 package Java_Intro._5_.inheritance.protected_vars;
 
+
 public class Restaurant extends Business {
     protected int rating;
 

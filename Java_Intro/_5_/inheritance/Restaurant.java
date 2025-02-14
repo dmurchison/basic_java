@@ -1,5 +1,6 @@
 package Java_Intro._5_.inheritance;
 
+
 public class Restaurant extends Business {
     private int rating;
 

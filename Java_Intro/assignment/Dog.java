@@ -2,7 +2,7 @@ package Java_Intro.assignment;
 import java.util.Scanner;
 
 
-public class Dog {
+public class Dog extends Pet {
     private int dogSpaceNumber;
     private int dogWeight;
     private boolean grooming;

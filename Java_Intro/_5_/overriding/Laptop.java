@@ -1,5 +1,6 @@
 package Java_Intro._5_.overriding;
 
+
 public class Laptop extends Computer {
     // Since this method has a different number of parameters than the method in the parent class, it is not overriding the method in the parent class.
     // It is however, overloading the method in the parent class.

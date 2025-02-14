@@ -1,32 +1,6 @@
 package Java_Intro.assignment;
 
 
-
-/*
-    - petType
-    - petName
-    - petAge
-    - dogSpaces (30 spaces available)
-    - catSpaces (12 spaces available)
-    - daysStay
-    - amountDue
-
-    + Pet()
-    + getPetType(): String
-    + setPetType(petType: String): void
-    + getPetName(): String
-    + setPetName(petName: String): void
-    + getPetAge(): int
-    + setPetAge(petAge: int): void
-    + getDogSpaces(): int
-    + setDogSpaces(dogSpaces: int): void
-    + getCatSpaces(): int
-    + setCatSpaces(catSpaces: int): void
-    + getDaysStay(): int
-    + setDaysStay(daysStay: int): void
-    + getAmountDue(): double
-    + setAmountDue(amountDue: double): void
-*/
 public class Pet {
     private String petType;
     private String petName;

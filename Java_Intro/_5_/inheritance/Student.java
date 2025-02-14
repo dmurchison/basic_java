@@ -1,5 +1,6 @@
 package Java_Intro._5_.inheritance;
 
+
 public class Student extends Person {
     private int idNum;
 

@@ -1,5 +1,6 @@
 package Java_Intro._5_.inheritance;
 
+
 public class Business {
     private String name;
     private String address;

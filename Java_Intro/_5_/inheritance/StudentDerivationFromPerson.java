@@ -1,5 +1,6 @@
 package Java_Intro._5_.inheritance;
 
+
 public class StudentDerivationFromPerson {
     public static void main(String[] args) {
         Student courseStudent = new Student();

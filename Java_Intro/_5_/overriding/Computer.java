@@ -1,5 +1,6 @@
 package Java_Intro._5_.overriding;
 
+
 public class Computer {
     public void setComputerStatus(String cpuStatus, String internetStatus) {
         cpuUsage = cpuStatus;

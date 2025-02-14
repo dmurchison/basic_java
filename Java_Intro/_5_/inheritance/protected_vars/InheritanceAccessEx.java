@@ -1,5 +1,6 @@
 package Java_Intro._5_.inheritance.protected_vars;
 
+
 public class InheritanceAccessEx {
     public static void main(String[] args) {
         Business business = new Business();
