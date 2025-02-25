@@ -1,5 +1,6 @@
 package Java_Intro._6_;
 
+
 public class OutputFormatting {
     public static void main(String[] args) {
         // Declare variables
