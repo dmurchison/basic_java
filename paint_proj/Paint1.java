@@ -1,4 +1,4 @@
-package Java_Intro._6_.Debugging_Input;
+package paint_proj;
 import java.util.Scanner;
 
 
