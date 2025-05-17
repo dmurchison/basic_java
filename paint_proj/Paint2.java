@@ -1,4 +1,3 @@
-package paint_proj;
 import java.util.Scanner;
 
 public class Paint2 {
