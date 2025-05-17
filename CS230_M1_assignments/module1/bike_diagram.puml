@@ -1,0 +1,40 @@
+@startuml
+package com.three19 {
+
+    class Vehicle {
+    }
+
+    class TwoWheeled {
+    }
+    TwoWheeled --|> Vehicle
+
+    class Bicycle {
+        - gears: int
+        - cost: double
+        - weight: double
+        - color: String
+        + Bicycle()
+        + Bicycle(aColor: String)
+        + Bicycle(nbrOfGears: int)
+        + Bicycle(nbrOfGears: int, theCost: double, theWeight: double, aColor: String)
+        + outputData(): void
+        + outputData(bikeText: String): Bicycle
+        + getGears(): int
+        + getCost(): double
+        + getWeight(): double
+        + getColor(): String
+        + setGears(nbr: int): Bicycle
+        + setCost(amt: double): Bicycle
+        + setWeight(lbs: double): Bicycle
+        + setColor(theColor: String): Bicycle
+    }
+    Bicycle --|> TwoWheeled
+
+    class Driver {
+        + main(args: String[]): void
+    }
+    Driver ..> Bicycle : "1..*"
+    Driver ..> TwoWheeled : "1..*"
+    Driver ..> Vehicle : "1..*"
+}
+@enduml
