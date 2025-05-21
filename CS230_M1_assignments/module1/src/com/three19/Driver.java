@@ -12,7 +12,6 @@ public class Driver {
         myBike.setColor("Purple");
         System.out.println("\nmyBike's color is " + myBike.getColor());
 
-
         // Example of calls to overloaded constructor
         Bicycle myBike1 = new Bicycle();
         Bicycle myBike2 = new Bicycle("Brown");
@@ -24,11 +23,9 @@ public class Driver {
         myBike3.outputData("Nbr 3");
         myBike4.outputData("Nbr 4");
 
-
         // Example using method call chaining
         Bicycle myBike5 = new Bicycle(24, 418.50, 17.2, "Green");
         myBike5.setColor("Peach").setGears(32).outputData("Number 5");
-
 
         // "IS A" Checks
         System.out.println("\n\"IS A\" CHECKS");
